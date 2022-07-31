@@ -120,8 +120,7 @@ class HomeScreen extends BaseView<HomeScreenViewmodel> {
                                   showInSnackBar(context,
                                       "This item already in the cart!");
                                 } else {
-                                  showInSnackBar(
-                                      context, "Item added in the cart");
+                                  showInSnackBar(context, "Added to the cart");
                                 }
                               });
                             },
